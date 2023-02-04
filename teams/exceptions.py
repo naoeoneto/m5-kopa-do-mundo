@@ -4,10 +4,10 @@ class NegativeTitlesError(Exception):
 
 
 class InvalidYearCupError(Exception):
-    def __init__(self, message=None):
+    def __init__(self, message):
         self.message = message
 
 
 class ImpossibleTitlesError(Exception):
-    def __init__(self, message=None):
+    def __init__(self, message):
         self.message = message
