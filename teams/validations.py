@@ -24,11 +24,3 @@ def validate_year(number: int):
 def validate_first_year(number: int):
     if number < 1930:
         raise InvalidYearCupError('there was no world cup this year')
-
-
-def validate_team():
-    pass
-
-
-def validate_user():
-    pass
